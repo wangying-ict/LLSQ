@@ -1,0 +1,29 @@
+AlexNet(
+  0.716 GMac, 100.000% MACs, 
+  (features): Sequential(
+    0.657 GMac, 91.806% MACs, 
+    (0): Conv2d(0.07 GMac, 9.849% MACs, 3, 64, kernel_size=(11, 11), stride=(4, 4), padding=(2, 2))
+    (1): ReLU(0.0 GMac, 0.027% MACs, inplace)
+    (2): MaxPool2d(0.0 GMac, 0.027% MACs, kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Conv2d(0.224 GMac, 31.317% MACs, 64, 192, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (4): ReLU(0.0 GMac, 0.020% MACs, inplace)
+    (5): MaxPool2d(0.0 GMac, 0.020% MACs, kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): Conv2d(0.112 GMac, 15.681% MACs, 192, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): ReLU(0.0 GMac, 0.009% MACs, inplace)
+    (8): Conv2d(0.15 GMac, 20.902% MACs, 384, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): ReLU(0.0 GMac, 0.006% MACs, inplace)
+    (10): Conv2d(0.1 GMac, 13.937% MACs, 256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): ReLU(0.0 GMac, 0.006% MACs, inplace)
+    (12): MaxPool2d(0.0 GMac, 0.006% MACs, kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (classifier): Sequential(
+    0.059 GMac, 8.194% MACs, 
+    (0): Dropout(0.0 GMac, 0.000% MACs, p=0.5)
+    (1): Linear(0.038 GMac, 5.276% MACs, in_features=9216, out_features=4096, bias=True)
+    (2): ReLU(0.0 GMac, 0.001% MACs, inplace)
+    (3): Dropout(0.0 GMac, 0.000% MACs, p=0.5)
+    (4): Linear(0.017 GMac, 2.345% MACs, in_features=4096, out_features=4096, bias=True)
+    (5): ReLU(0.0 GMac, 0.001% MACs, inplace)
+    (6): Linear(0.004 GMac, 0.572% MACs, in_features=4096, out_features=1000, bias=True)
+  )
+)

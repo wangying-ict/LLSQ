@@ -1,0 +1,22 @@
+{
+  "layer1.0.conv1.": "res2a_branch2a-",
+  "layer1.0.conv2.": "res2a_branch2b-",
+  "layer1.1.conv1.": "res2b_branch2a-",
+  "layer1.1.conv2.": "res2b_branch2b-",
+  "layer2.0.downsample.0.": "res3a_branch1-",
+  "layer2.0.conv1.": "res3a_branch2a-",
+  "layer2.0.conv2.": "res3a_branch2b-",
+  "layer2.1.conv1.": "res3b_branch2a-",
+  "layer2.1.conv2.": "res3b_branch2b-",
+  "layer3.0.downsample.0.": "res4a_branch1-",
+  "layer3.0.conv1.": "res4a_branch2a-",
+  "layer3.0.conv2.": "res4a_branch2b-",
+  "layer3.1.conv1.": "res4b_branch2a-",
+  "layer3.1.conv2.": "res4b_branch2b-",
+  "layer4.0.downsample.0.": "res5a_branch1-",
+  "layer4.0.conv1.": "res5a_branch2a-",
+  "layer4.0.conv2.": "res5a_branch2b-",
+  "layer4.1.conv1.": "res5b_branch2a-",
+  "layer4.1.conv2.": "res5b_branch2b-",
+  "fc.": "fc1000-"
+}
